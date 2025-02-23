@@ -1,0 +1,22 @@
+li{
+  color:red;
+  font-size: 20px;
+}
+@media(max-width:500px){
+  li{
+    font-size: 2px;
+    color:red;
+  }
+}
+@media(max-width:715px){
+  li{
+    font-size:12.9px;
+    color:red;
+  }
+}
+@media(max-width:940px){
+  li{
+    font-size:15px;
+    color:red;
+  }
+}

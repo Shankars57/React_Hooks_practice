@@ -1,0 +1,19 @@
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Adds space between items */
+  justify-items: center; /* Center items in the grid */
+}
+
+.recipeList {
+  margin: 0px;
+  text-align: center; /* Center text under the image */
+}
+
+.recipe-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.recipe-img:hover {
+  transform: scale(1.1); /* Scales the image to 110% of its original size */
+}
